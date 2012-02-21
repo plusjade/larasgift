@@ -1,0 +1,76 @@
+#album_wrapper_13 {
+
+}
+
+  /* --- album albums gallery --- */
+
+#album_wrapper_13 .galleryview {
+  margin:0 auto;
+}
+
+
+#album_wrapper_13 #format_gallery_wrapper,
+#album_wrapper_13 #format_gallery_wrapper .filmstrip {
+  background:black;
+}
+
+#album_wrapper_13 .galleryview{
+  margin:0 auto;
+}
+
+#album_wrapper_13 .galleryview div.panel{
+  border:1px solid #e2dacf;
+}
+
+#album_wrapper_13 .galleryview div.overlay{
+  background:black;
+}
+
+#album_wrapper_13 .galleryview div.caption{
+  color:orange;
+}
+#album_wrapper_13 .galleryview div.panel-overlay,
+#album_wrapper_13 .galleryview div.panel-overlay a{
+  color:white;
+font-size:1em;
+}
+
+
+.nav-next,
+.nav-prev,
+.nav-overlay,
+.pointer_img{
+  width:20px;
+  height:20px;
+}
+.nav-next {
+  background: url(/_assets/tools/album/light/next.png) no-repeat 0 0;
+  cursor:cursor;
+  cursor:pointer;
+}
+.nav-prev {
+  background: url(/_assets/tools/album/light/prev.png) no-repeat 0 0;
+  cursor:cursor;
+  cursor:pointer;
+}
+
+.panel-prev {
+  background: url(/_assets/tools/album/light/panel-nav-prev.png) no-repeat 0 0;
+  width:42px;
+  height:42px;
+  cursor:cursor;
+  cursor:pointer;
+}
+
+.panel-next {
+  background: url(/_assets/tools/album/light/panel-nav-next.png) no-repeat 0 0;
+  width:42px;
+  height:42px;
+  cursor:cursor;
+  cursor:pointer;
+}
+
+
+.pointer_img {
+  background: url(/_assets/tools/album/light/pointer.png) no-repeat 0 0;
+}

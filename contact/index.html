@@ -1,0 +1,95 @@
+---
+layout: default
+title: Contact Us
+---
+{% include JB/setup %}
+
+
+<div id="text_wrapper_65" class="text_wrapper ">
+  <h1>Contact Us</h1>
+  
+  <div style="padding: 0pt 20px 10px;">
+    Choosing the right favor for your occasion is no an easy task. We can personally help you choose from thousands of available favors in order to make your occasion unique, memorable, and a success for your family and friends. 
+    <br><br>
+    <b>Call us</b>, <b>email us</b>, <b>submit our form</b>, or <b>drop by our store</b> in friendly Montrose, California.
+    <br>We will be happy to serve you!
+  </div>
+
+  <hr>
+
+  <div class="left_details">
+    <span class="contact_title">Phone:</span> <span class="contact_detail">(818)249-1356</span> <br><span class="contact_title">Fax:</span> <span class="contact_detail">(818)541-0938</span>
+    <br><span class="contact_title">Email:</span> <span class="contact_detail">seta@larasgift.com</span>
+    <br><br>                   
+    <span class="brown"><strong>Store Address:</strong></span>
+    <br>2259 Honolulu Ave.
+    <br>Montrose, CA 91020
+    <br><br>   
+    <span class="brown"><strong>Store Hours:</strong></span>
+    <br>Monday - Friday: 10am - 6pm
+    <br>Saturday: 10am - 5pm
+    <br>Sunday: Closed
+  </div>
+
+  <div class="photo_contact">
+    <iframe src="http://larasgift.plusjade.org/get/app/map?a=2259+Honolulu+Ave+Glendale+CA+91020" frameborder="0"> </iframe>
+  </div>
+
+  <hr>
+  <h1>Let Us Help You With Your Next Event!</h1>
+
+  <p>Submit this short form below and we can get to work helping you with your specific occasion details.</p>
+
+</div>
+
+
+<div id="format_wrapper_6" class="format_wrapper ">  
+  <form action="" method="POST" class="format_form_list">
+    <input type="hidden" name="post_handler" value="format:6">
+
+    <fieldset id="format_item_14" class="format_item " rel="14">
+      <label>What kind of event would you like help with? <span class="jade_required_star">*</span></label>
+      <div class="user_info">We can help you with nearly any event, please pick the one having priority.</div>
+      <input type='radio' name='14:what-kind-of-event-would-you-like-help-with' value='Baby Shower' id='opt_1' checked="checked"><label for='opt_1'>Baby Shower</label> <br/><input type='radio' name='14:what-kind-of-event-would-you-like-help-with' value='Bridal Shower' id='opt_2' ><label for='opt_2'>Bridal Shower</label> <br/><input type='radio' name='14:what-kind-of-event-would-you-like-help-with' value='Wedding' id='opt_3' ><label for='opt_3'>Wedding</label> <br/><input type='radio' name='14:what-kind-of-event-would-you-like-help-with' value='Religious Event' id='opt_4' ><label for='opt_4'>Religious Event</label> <br/><input type='radio' name='14:what-kind-of-event-would-you-like-help-with' value='Graduation' id='opt_5' ><label for='opt_5'>Graduation</label> <br/><input type='radio' name='14:what-kind-of-event-would-you-like-help-with' value='Tea Party' id='opt_6' ><label for='opt_6'>Tea Party</label> <br/><input type='radio' name='14:what-kind-of-event-would-you-like-help-with' value='Birthday or General Celebration' id='opt_7' ><label for='opt_7'>Birthday or General Celebration</label> <br/><input type='radio' name='14:what-kind-of-event-would-you-like-help-with' value='Other' id='opt_8' ><label for='opt_8'>Other</label> <br/>  
+    </fieldset>
+
+    <fieldset id="format_item_15" class="format_item " rel="15">
+      <label>Event Details. <span class="jade_required_star">*</span></label>
+      <div class="user_info">Any information you think would be useful for us.<br/>Ex: "I am organizing a baby shower in 3 weeks and am looking for candy favors for about 50 guests."</div>
+      <textarea name="15:event-details" rel="text_req"></textarea>
+    </fieldset>
+
+    <fieldset id="format_item_16" class="format_item " rel="16">
+      <label>Full Name <span class="jade_required_star">*</span></label>
+      <div class="user_info">Your full name please.</div>
+      <input type="text" name="16:full-name" value="" class="text_input" rel="text_req">
+    </fieldset>
+
+    <fieldset id="format_item_17" class="format_item " rel="17">
+      <label>Phone Number </label>
+      <div class="user_info">We will use this number to get in touch with you regarding your request.</div>
+      <input type="text" name="17:phone-number" value="" class="text_input" rel="">
+    </fieldset>
+
+    <fieldset id="format_item_18" class="format_item " rel="18">
+      <label>Email </label>
+      <div class="user_info">If your phone number is not provided we will contact you by email!</div>
+      <input type="text" name="18:email" value="" class="text_input" rel="">
+    </fieldset>
+
+    <button type="submit">Submit Form</button>
+  </form>
+</div>
+
+
+<script type="text/javascript">
+    $('.format_form_list').ajaxForm({     
+      beforeSubmit: function(fields, form){
+        if(! $("input, textarea", form[0]).jade_validate()) return false;
+        $('.format_form_list').html('<div class="ajax_loading">Loading...</div>');
+      },
+      success: function(data) {
+        $('.format_form_list').replaceWith(data);
+      }
+    });
+</script>

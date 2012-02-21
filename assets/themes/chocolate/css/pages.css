@@ -1,0 +1,244 @@
+/* /home
+-------------------------------------------------------------------- */
+#album_wrapper_13 {
+
+}
+
+  /* --- album albums gallery --- */
+
+#album_wrapper_13 .galleryview {
+  margin:0 auto;
+}
+
+
+#album_wrapper_13 #format_gallery_wrapper,
+#album_wrapper_13 #format_gallery_wrapper .filmstrip {
+  background:black;
+}
+
+#album_wrapper_13 .galleryview{
+  margin:0 auto;
+}
+
+#album_wrapper_13 .galleryview div.panel{
+  border:1px solid #e2dacf;
+}
+
+#album_wrapper_13 .galleryview div.overlay{
+  background:black;
+}
+
+#album_wrapper_13 .galleryview div.caption{
+  color:orange;
+}
+#album_wrapper_13 .galleryview div.panel-overlay,
+#album_wrapper_13 .galleryview div.panel-overlay a{
+  color:white;
+font-size:1em;
+}
+
+
+.nav-next,
+.nav-prev,
+.nav-overlay,
+.pointer_img{
+  width:20px;
+  height:20px;
+}
+.nav-next {
+  background: url(../tools/album/light/next.png) no-repeat 0 0;
+  cursor:cursor;
+  cursor:pointer;
+}
+.nav-prev {
+  background: url(../tools/album/light/prev.png) no-repeat 0 0;
+  cursor:cursor;
+  cursor:pointer;
+}
+
+.panel-prev {
+  background: url(../tools/album/light/panel-nav-prev.png) no-repeat 0 0;
+  width:42px;
+  height:42px;
+  cursor:cursor;
+  cursor:pointer;
+}
+
+.panel-next {
+  background: url(../tools/album/light/panel-nav-next.png) no-repeat 0 0;
+  width:42px;
+  height:42px;
+  cursor:cursor;
+  cursor:pointer;
+}
+
+
+.pointer_img {
+  background: url(../tools/album/light/pointer.png) no-repeat 0 0;
+}
+#text_wrapper_66{
+
+}
+
+#text_wrapper_66 hr{
+clear:both;
+}
+
+#text_wrapper_66 img{
+background:#fff;
+padding:3px;
+border: 2px solid #eee;
+float: right;
+margin:0 0 10px 20px;
+}
+#text_wrapper_64{
+
+}
+
+/* /products
+-------------------------------------------------------------------- */
+#showroom_wrapper_4{
+
+}
+
+/* category navigation */
+#showroom_wrapper_4 div.showroom_categories{
+
+}
+#showroom_wrapper_4 div.showroom_categories ul{
+
+}
+#showroom_wrapper_4 div.showroom_categories ul li{
+
+}
+#showroom_wrapper_4 div.showroom_categories ul li span a{
+
+}
+
+ul li span a.loader:hover,
+ul li span a.loader.active {
+  text-decoration:underline;
+}
+
+#showroom_wrapper_4 div.category_header {
+ margin:10px 0;
+}
+
+
+/* items gallery container */
+#showroom_wrapper_4 div.showroom_items{
+
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item{
+  width:180px;
+  float:left;
+  background-color:#FFFFFF;
+  border:1px solid #e2dacf;
+  padding:8px;
+  margin:0px 9px 25px 9px;
+  text-align:center;
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item img{
+width:160px;
+height:160px;
+border:2px solid #e2dacf;
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item .item_image a:hover img{
+border:2px solid #6c534e;
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item div.item_name{
+
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item div.item_intro{
+display:none;
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item div.item_image{
+
+}
+
+/* single item view */
+
+#showroom_wrapper_4 div.single_item{
+
+}#text_wrapper_69{
+
+}#text_wrapper_64{
+
+}
+
+/* /custom-orders
+-------------------------------------------------------------------- */
+
+
+/* /about
+-------------------------------------------------------------------- */
+#text_wrapper_67{
+
+}
+
+#text_wrapper_67{
+
+}
+
+#text_wrapper_67{
+}
+#text_wrapper_64{
+
+}
+
+
+/* /contact
+-------------------------------------------------------------------- */
+#text_wrapper_65{
+
+}
+
+#text_wrapper_65 iframe{
+  width:470px;
+  height:320px;
+  overflow-x: hidden;
+  border:0;
+}/* format form list view */
+
+#format_wrapper_6 {
+
+}
+ /* the form */
+#format_wrapper_6 form.format_form_list div.format_item {
+  margin-bottom:10px;
+  padding:5px;
+}
+#format_wrapper_6 .req_icon{
+  color:red;
+}
+
+/* inputs */ 
+#format_wrapper_6 form.format_form_list input.text_input {
+  width:300px;
+}
+#format_wrapper_6 form.format_form_list textarea {
+  width:500px !important;
+  height:200px !important;
+}
+#format_wrapper_6 form.format_form_list select {
+
+}
+
+/* status message after valid form submit*/
+
+#format_wrapper_6 .form_status_box{
+  padding:10px;
+  text-align:center;
+}
+#format_wrapper_6 .form_status_box.success{
+  background:lightgreen;
+  border:1px solid green;
+}
+#format_wrapper_6 .form_status_box.error{
+  background:#fad6d6;
+  border:1px solid #cc0000;
+}
+#format_wrapper_6 fieldset{border:0}#text_wrapper_64{
+
+}
+

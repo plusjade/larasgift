@@ -1,0 +1,41 @@
+/* format form list view */
+
+#format_wrapper_6 {
+
+}
+ /* the form */
+#format_wrapper_6 form.format_form_list div.format_item {
+  margin-bottom:10px;
+  padding:5px;
+}
+#format_wrapper_6 .req_icon{
+  color:red;
+}
+
+/* inputs */ 
+#format_wrapper_6 form.format_form_list input.text_input {
+  width:300px;
+}
+#format_wrapper_6 form.format_form_list textarea {
+  width:500px !important;
+  height:200px !important;
+}
+#format_wrapper_6 form.format_form_list select {
+
+}
+
+/* status message after valid form submit*/
+
+#format_wrapper_6 .form_status_box{
+  padding:10px;
+  text-align:center;
+}
+#format_wrapper_6 .form_status_box.success{
+  background:lightgreen;
+  border:1px solid green;
+}
+#format_wrapper_6 .form_status_box.error{
+  background:#fad6d6;
+  border:1px solid #cc0000;
+}
+#format_wrapper_6 fieldset{border:0}

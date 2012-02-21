@@ -2,4 +2,4 @@
 layout: default
 ---
 {% include JB/setup %}
-{% include themes/chocolate/page.html %}
+{% include themes/chocolate/setttings.yml %}

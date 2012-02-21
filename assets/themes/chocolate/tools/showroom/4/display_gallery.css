@@ -1,0 +1,64 @@
+#showroom_wrapper_4{
+
+}
+
+/* category navigation */
+#showroom_wrapper_4 div.showroom_categories{
+
+}
+#showroom_wrapper_4 div.showroom_categories ul{
+
+}
+#showroom_wrapper_4 div.showroom_categories ul li{
+
+}
+#showroom_wrapper_4 div.showroom_categories ul li span a{
+
+}
+
+ul li span a.loader:hover,
+ul li span a.loader.active {
+  text-decoration:underline;
+}
+
+#showroom_wrapper_4 div.category_header {
+ margin:10px 0;
+}
+
+
+/* items gallery container */
+#showroom_wrapper_4 div.showroom_items{
+
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item{
+  width:180px;
+  float:left;
+  background-color:#FFFFFF;
+  border:1px solid #e2dacf;
+  padding:8px;
+  margin:0px 9px 25px 9px;
+  text-align:center;
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item img{
+width:160px;
+height:160px;
+border:2px solid #e2dacf;
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item .item_image a:hover img{
+border:2px solid #6c534e;
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item div.item_name{
+
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item div.item_intro{
+display:none;
+}
+#showroom_wrapper_4 div.showroom_items div.showroom_item div.item_image{
+
+}
+
+/* single item view */
+
+#showroom_wrapper_4 div.single_item{
+
+}

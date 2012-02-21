@@ -1,0 +1,97 @@
+---
+layout: default
+title: Home
+meta_title : Thousands of gifts and favors for weddings, bridal showers, baby showers, religious events, graduations.
+gallery :
+  -
+    image : religion/IMG_5253.jpg
+    text : highly detailed religious gifts
+  -
+    image: baby-shower/9.jpg
+    text: baby shower favors
+  -
+    image: bridal/Clipboard09.jpg
+    text: themed chocolate favors
+  -
+    image: wedding/IMG_5266.jpg
+    text: wedding favors
+  -
+    image: candy/3.jpg
+    text: assorted elegant candy arrangements
+  -
+    image: graduation/IMG_5251.jpg
+    text: graduation favors
+  -
+    image: chocolate/Clipboard19.jpg
+    text: customizable chocolate wedding favors
+  -
+    image: chocolate/IMG_5030.jpg
+    text: chocolate wedding favors
+  -
+    image: gifts/IMG_5352.jpg
+    text: stylish centerpieces
+---
+{% include JB/setup %}
+
+<div id="album_wrapper_13" class="album_wrapper ">  
+  <div class="album_gallery_wrapper">  
+    <div id="format_gallery_wrapper" class="galleryview">
+    {% for slide in page.gallery %}
+      <div class="panel">
+        <img src="{{site.static}}/products/{{ slide.image }}" /> 
+        <div class="panel-overlay">{{ slide.text }}</div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+<div id="text_wrapper_66" class="text_wrapper ">  
+  <h1>Thousands of Favors and Keepsakes for Every Occasion.</h1>
+  We offer thousands of favors and keepsakes for all occasions including wedding, engagement, corporate events, as well as all the product categories listed to the left. We've been in business for thirteen years.
+  <br><br>
+
+  <hr>
+  <img src="/assets/themes/chocolate/images/basket_small.jpg" alt="">
+  <h1>We Make Custom Favors.</h1>
+  Visit our <a href="/custom-orders">Custom Orders</a> page if you don't find what you are looking for or want a truly unique, customized favor for your special occasion.
+
+  <hr>
+  <img src="/assets/themes/chocolate/images/ship_home.jpg" alt="">
+  <h1>Personalized Service, Nationwide.</h1>
+  Coordinating the perfect favors and keepsakes for your special event takes a personal touch and benefits from experienced help. So whether you are local or across the continent, call us for a personal consultation and let us try our best to help you. Our personal service and commitment to our customers is why we have been in business for thirteen years.
+
+  <hr>
+  <img src="/assets/themes/chocolate/images/rows_small.jpg" alt="">
+  <h1>Visit Our Store Front.</h1>
+  <a href="/contact">Stop by our store</a> in beautiful old town Montrose, California where we offer personalized consultations and product browsing.
+
+  <hr>
+  <img src="/assets/themes/chocolate/images/babies.jpg" alt="">
+  <h1>Tell Us About Your Event.</h1>
+  It is best to <a href="/contact">contact us</a> via phone, email, or visiting our storefront. Your special occasion is unique and we want to make sure it is done right. Our site is a product showroom for your convenience, but orders ultimately require manual attention. Thank you!
+
+</div>
+
+<script type="text/javascript"> 
+  $(function(){
+    $("#format_gallery_wrapper").galleryView({
+      panel_width:600,
+      panel_height:350,
+      frame_width:75,
+      frame_height:75,
+      filmstrip_size:3,
+      overlay_height:30,
+      transition_speed:400,
+      transition_interval:4000,
+      overlay_opacity:0.6,
+      easing:'swing',
+      filmstrip_position:'bottom',
+      overlay_position:'top',
+      show_captions:false,
+      fade_panels:true,
+      pause_on_hover:true,nav_theme : 'light'
+    });
+  });
+</script>

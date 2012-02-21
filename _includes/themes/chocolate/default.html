@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{page.meta_title}} | Lara's Gifts - Montrose, California</title>
+  <meta name="description" content="Personalized special occassion gifts and favors. Weddings, baby and bridal showers, religious, gradutation, custom gifts. Located in Glendale, California 91020 ">
+  
+  <link type="text/css" rel="stylesheet" href="{{ASSET_PATH}}/css/global.css" media="screen" />
+  <link type="text/css" rel="stylesheet" href="{{ASSET_PATH}}/css/pages.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" charset="utf-8"> </script>
+  <script src="{{ASSET_PATH}}/javascripts/gallery.js" charset="utf-8"> </script>
+  </head>
+<body>
+
+  <!-- start ribbon background -->
+  <div id="page_bg">
+
+    <div id="container">
+
+      <div id="header">
+        <div id="header_logo">
+          <span id="BANNER">
+            <a href="{{HOME_PATH}}">
+              <img src="{{ASSET_PATH}}/images/laras_logo.png" id="header_banner" alt="larasgift logo">
+            </a>
+          </span>
+        </div>
+        <div id="header_number">(818)249-1356</div>
+      </div>
+
+    <div id="MAIN_MENU">
+      <ul>
+      {% for node in site.navigation %}
+        {% capture node_url %}{{ node.url}}/index.html{% endcapture %}
+        {% if node_url == page.url %}
+          <li><a href="{{node.url}}" class="selected">{{node.title}}</a></li>
+        {% else %}
+          <li><a href="{{node.url}}" >{{node.title}}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div> 
+
+      <div id="mainContent">
+
+        <div id="right_side">
+          <div id="body_text" class="container_1">
+            {{ content }}
+          </div>
+        </div>
+
+        <div id="left_side" class="container_2">
+
+          <div id="text_wrapper_64" class="text_wrapper ">  
+            <div style="background: transparent url({{ASSET_PATH}}/images/tag_top.gif) repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; margin-top: -47px; width: 147px; height: 93px;">
+            </div>
+            <div class="tag">
+              <ul>
+              {% for node in site.product_categories %}  
+                <li><span>
+                  <a href="/products/{{node.url}}" class="loader ">{{node.title}}</a>
+                </span></li>
+              {% endfor %}
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="clear" />
+      </div>
+
+      <div id="footer">
+        <div style="float:left">&copy; 2012 Lara's Gifts </div>
+        <div style="float:right; "> 
+          Hours | M-F: 10am-6pm, Sat: 10am-5pm | <a href="/contact">2259 Honolulu Ave. Montrose, CA 91020</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+</body>
+</html>
